@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;  /* Font style */
+    background-color: #f2f2d6;     /* Page background color */
+    text-align: center;              /* Center text on page */
+    margin: 20px;                    /* Space around body */
+}
+ 
+title { 
+    color:blue;
+    font-size: medium;
+    text-align:center;
+    margin-bottom: 30px;
+
+}
+h1{
+    color:black;
+
+}
+.product-box img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.description {
+    color: dimgray;                  /* Gray text */
+    font-size: 14px;                 /* Small readable text */
+    margin: 10px 0;
+}
+button{
+    color:blue;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: navajowhite;
+}
+    .price {
+    color: red;                      /* Red price text */
+    font-weight: bold;               /* Bold text */
+    margin-bottom: 0px;             /* Space below price */
+}
+h2 {
+font-size: large;
+color: black;
+text-align: center;
+
+}
+/* Button Styling */
+button {
+    background-color: blue;          /* Blue button */
+    color: white;                    /* White text */
+    padding: 5px 10px;  
+      /* Inner space (top-bottom, left-right) */
+    border: none;                    /* No border */
+    border-radius: 5px;              /* Rounded button corners */
+}
+.product-box{
+    background-color: white;
+    margin:0 auto;
+    width:300px ;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid gray;
+
+
+}
