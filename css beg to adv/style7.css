@@ -1,0 +1,44 @@
+body {
+    font-family: Arial,sans-serif;
+    margin:20px;
+}
+.block-menu a{
+    display: block;
+    background-color: rgb(99, 99, 149);
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    text-decoration: none;
+
+}
+.inline-menu a{
+    display: inline;
+    background-color: greenyellow;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+
+
+}
+.inline-block-menu a{
+    display: inline-block;
+    background-color:plum;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+
+
+}
+.float-menu a{
+    float: left;
+    background-color:rgba(236, 130, 9, 0.84) ;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+    
+
+]
