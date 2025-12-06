@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Selling Items - Replica</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+    <h1>Best Selling Item</h1>
+  </div>
+
+  <main class="container">
+
+    <article class="card">
+      <div class="imgwrap">
+        <img src="Laptop.jpg" alt="Laptop">
+      </div>
+      <h3>HP 255 G10 Laptop (16GB RAM, 512GB SSD, Ryzen 3)</h3>
+      <p class="desc">A fast and reliable laptop ideal for daily work, browsing, and multitasking and power efficient.</p>
+      <div class="buyrow">
+        <div class="price">₹1199</div>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="imgwrap">
+        <img src="phone.jpg" alt="iPhone">
+      </div>
+      <h3>Apple iPhone 15 (256GB) - Green</h3>
+      <p class="desc">Experience smooth performance, stunning photos, and an advanced A16 chip.</p>
+      <div class="buyrow">
+        <div class="price">₹1499</div>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="imgwrap">
+        <img src="microwave.jpg" alt="Microwave">
+      </div>
+      <h3>LG 28 L Convection Microwave Oven</h3>
+      <p class="desc">Perfect for baking, grilling, and quick heating with a large 28L capacity.</p>
+      <div class="buyrow">
+        <div class="price">₹799</div>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="imgwrap">
+        <img src="earphones.jpg" alt="Earbuds">
+      </div>
+      <h3>boAt Nirvana Zenith Pro (2025)</h3>
+      <p class="desc">Premium wireless earbuds with clear sound and long-lasting battery life.</p>
+      <div class="buyrow">
+        <div class="price">₹1299</div>
+        <a class="btn" href="#">Buy Now</a>
+      </div>
+    </article>
+    <style>
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .header {
+    background-color: #f4f4f4;
+    color: #040404;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    background-color: lavender;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    width: 250px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    background-color: rgb(219, 210, 211);
+}
+  .imgwrap {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .imgwrap img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+  }
+  .desc {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  .buyrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  .btn {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+    .btn:hover {
+        background-color: #219150;
+    }
+    </style>
+
+  </main>
+</body>
+</html>
